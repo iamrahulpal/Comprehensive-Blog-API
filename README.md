@@ -1,6 +1,6 @@
 # Comprehensive Blog API
 
-This backend is hosted on [Vercel](https://comprehensive-blog-i3olb7x7g-rahuls-projects-2c131377.vercel.app/).
+This backend is hosted on [Vercel](https://comprehensive-blog-api.vercel.app).
 
 Note: If you counter any error like - "This Serverless Function has crashed" then please reload the page.
 
