@@ -2,6 +2,8 @@
 
 This backend is hosted on [Vercel](https://comprehensive-blog-i3olb7x7g-rahuls-projects-2c131377.vercel.app/).
 
+Note: If you counter any error like - "This Serverless Function has crashed" then please reload the page.
+
 The Comprehensive Blog API is a powerful Node.js application built with the Express framework and MongoDB as the database. It provides a wide range of features for managing blog posts, including Create, Read, Update, and Delete operations, as well as the ability to retrieve the latest blog post from each unique category.
 
 ## API Endpoints
