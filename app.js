@@ -11,6 +11,9 @@ mongo.connect();
 app.use(bodyParser.json());
 app.use("/api/posts", postRoutes);
 app.use("/api/category", categoryRoutes);
+app.use("/", (req, res) =>
+  res.send("Hi, welcome to 'Comprehensive Blog API'.")
+);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
