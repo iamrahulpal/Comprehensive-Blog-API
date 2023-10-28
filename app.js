@@ -9,8 +9,8 @@ dotenv.config();
 
 mongo.connect();
 app.use(bodyParser.json());
-app.use("/posts", postRoutes);
-app.use("/category", categoryRoutes);
+app.use("/api/posts", postRoutes);
+app.use("/api/category", categoryRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
